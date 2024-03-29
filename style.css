@@ -1,0 +1,94 @@
+body{
+    background-image: url("images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.container{
+    margin: 5% 35%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.content{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.image{
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.container-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    border-radius: 25px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.container-three{
+    font-size: small;
+}
+
+.title-two{
+    margin-bottom: 0px;
+}
+
+.price{
+    margin-top: 0px;
+}
+
+
+.change{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttoms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    font-weight: bold;
+}
+
+.buttom1,
+.buttom2 {
+    border: none;
+    border-radius: 10px;
+    padding: 5% 33%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttom1 {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+.buttom2 {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 431px) and (min-width: 200px){
+    body {
+        margin-top: 20%;
+        font-size: 14px;
+        height: 50%;
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+    }
+
+    .container{
+        margin: 10% 10% 0% 10%;
+    }
+}
